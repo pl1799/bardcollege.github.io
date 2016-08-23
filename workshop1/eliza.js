@@ -4,27 +4,21 @@
  * ported ELIZA (https://github.com/dhconnelly/paip-python) to javascript;
  * from that program:
  * 
- *  "Eliza is a pattern-matching automated psychiatrist. Given a set
- *   of rules in the form of input/output patterns, Eliza will attempt
- *   to recognize user input phrases and generate relevant
- *   psychobabble responses.
- * 
- *   Each rule is specified by an input pattern and a list of output
- *   patterns. A pattern is a sentence consisting of space-separated
- *   words and variables. Input pattern variables come in two forms:
- *   single variables and segment variables; single variables (which
- *   take the form ~x) match a single word, while segment variables
- *   (which take the form ~*x) can match a phrase. Output pattern
- *   variables are only single variables. The variable names contained
- *   in an input pattern should be the same as those in the
- *   corresponding output pattern, and each segment variable ~*x in an
- *   input pattern corresponds to the single variable ~x in the output
- *   pattern.
- *
- *   The conversation proceeds by reading a sentence from the user,
- *   searching through the rules to find an input pattern that
- *   matches, replacing variables in the output pattern, and displaying
- *   the results to the user."
+ *  "And therefore are effective."
+ * Humans are able to use speech in order to communicate unlike other species
+ * In fact, Americans in a real sense have never betrayed their god 
+ * I've spent the better half of my adult life trying to sweet away my early years under the carpet
+ * And have a life that was clearly just mine and independent of the historic fate of my family
+ * Can you imagine what it was like to be one of them
+ * To be built like them, to have the benefits of being born into such a wealthy and powerful American family
+ * Do you know what the message of Western civilization is? I am alone
+ * Give me your tired, your poor
+ * Your huddled masses yearning to break free
+ * The wretched refuse of your teeming shore
+ * Send these, the homeless, tempest lost to me
+ * I lift my lamp beside the golden door!
+ * Certain moments send adrenaline to the heart
+ * Dry out the lungs and clog the lungs
  */
 
 var rules = {
